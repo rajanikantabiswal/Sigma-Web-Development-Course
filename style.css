@@ -1,4 +1,25 @@
-body{
-     background-color: yellow;
-     color: red;
+*{
+     margin: 0;
+     padding: 0;
+}
+.navbar{
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px 100px;
+}
+.menu{
+     display: flex;
+     align-items: center;
+}
+.menu a{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     padding: 14px 20px;
+     color: black;
+     font-weight: 500;
+}
+.logo{
+     height: 50px;
 }

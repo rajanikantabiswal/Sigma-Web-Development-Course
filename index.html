@@ -2,17 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sigma Web development Course</title>
+    <title>UltraEdit</title>
+    <style>
+        *{
+     margin: 0;
+     padding: 0;
+}
+.navbar{
+     background: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px 100px;
+}
+.menu{
+     display: flex;
+     align-items: center;
+}
+.menu a{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+     padding: 14px 20px;
+     color: black;
+     font-weight: 500;
+}
+.logo{
+     height: 50px;
+}
+    </style>
 </head>
 <body>
-    <Header>Hello World</Header>
-    <div>
-        <h2>I am the first line </h2>
-        <p>This is the very best site and the system that i am using in this site . to do the same thing in the arro navigation</p>
-    </div>
-
+    <header>
+        <div class="navbar">
+            <img src="Images/ue-logo.png" alt="" class="logo">
+            <div class="menu">
+                <a href="#">Products</a>
+                <a href="#">Pricing</a>
+                <a href="#">Resources</a>
+                <a href="#">About Us</a>
+                <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="#141B34" stroke-width="1.5"/>
+                    <path d="M7 8.37931H11.5M17 8.37931H14.5M11.5 8.37931H14.5M11.5 8.37931V7M14.5 8.37931C13.9725 10.2656 12.8679 12.0487 11.6071 13.6158M8.39286 17C9.41205 16.0628 10.5631 14.9134 11.6071 13.6158M11.6071 13.6158C10.9643 12.8621 10.0643 11.6426 9.80714 11.0909M11.6071 13.6158L13.5357 15.6207" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
